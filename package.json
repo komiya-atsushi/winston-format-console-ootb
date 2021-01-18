@@ -1,16 +1,29 @@
 {
   "name": "winston-format-pretty-console",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "format": "prettier --write '**/*.ts'",
-    "lint": "eslint --fix --ext .ts ./",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "1.0.0-0",
+  "description": "Winston formatter for console output out-of-the-box.",
+  "author": {
+    "name": "KOMIYA Atsushi",
+    "url": "https://github.com/komiya-atsushi"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/komiya-atsushi/winston-format-pretty-console.git"
+  },
+  "bugs": {
+    "url": "https://github.com/komiya-atsushi/winston-format-pretty-console/issues"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "format": "prettier --write '**/*.ts'",
+    "lint": "eslint --fix --ext .ts ./"
+  },
+  "keywords": [
+    "logger",
+    "winston"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^14.14.20",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
