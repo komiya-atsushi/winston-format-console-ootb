@@ -1,6 +1,6 @@
 {
   "name": "winston-format-console-ootb",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "description": "Winston formatter for console output out-of-the-box.",
   "author": {
     "name": "KOMIYA Atsushi",
