@@ -1,5 +1,5 @@
 {
-  "name": "winston-format-pretty-console",
+  "name": "winston-format-console-ootb",
   "version": "1.0.0-0",
   "description": "Winston formatter for console output out-of-the-box.",
   "author": {
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/komiya-atsushi/winston-format-pretty-console.git"
+    "url": "https://github.com/komiya-atsushi/winston-format-console-ootb.git"
   },
   "bugs": {
-    "url": "https://github.com/komiya-atsushi/winston-format-pretty-console/issues"
+    "url": "https://github.com/komiya-atsushi/winston-format-console-ootb/issues"
   },
   "main": "./index.js",
   "scripts": {

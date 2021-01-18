@@ -1,4 +1,4 @@
-winston-format-pretty-console
+winston-format-console-ootb
 =============================
 
 Winston formatter for console output out-of-the-box.
@@ -21,7 +21,7 @@ Install
 # You need to explicitly install winston.
 npm install \
   winston \
-  winston-format-pretty-console
+  winston-format-console-ootb
 ```
 
 Demo
@@ -29,7 +29,7 @@ Demo
 
 ```typescript
 import winston from 'winston';
-import { prettyConsole } from 'winston-format-pretty-console';
+import { prettyConsole } from 'winston-format-console-ootb';
 
 const logger = winston.createLogger({
   level: 'silly',
